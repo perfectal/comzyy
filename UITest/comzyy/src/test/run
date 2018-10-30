@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite2">
+    <parameter name="username" value="13661425605" />
+    <parameter name="pwd" value="" />
+    <parameter name="browserDriverUrl" value="C:\Program Files (x86)\Google\Chrome\Application"/>
+    <parameter name="url" value="http://www.baidu.com/"/>
+    <test name="test">
+        <classes>
+            <class name="com.zyy.testcase.LoginTest"/>
+        </classes>
+    </test>
+

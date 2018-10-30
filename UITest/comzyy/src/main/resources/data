@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+    <page pageName="baiduloginpage">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="30" value='//*[@id="u1"]/a[7]'>设置</locator>
+        <locator type="id" timeOut="3" value="TANGRAM__PSP_10__footerULoginBtn">用户名登录</locator>
+        <locator type="id" timeOut="3" value="TANGRAM__PSP_10__userName">用户名</locator>
+        <locator type="id" timeOut="3" value="TANGRAM__PSP_10__password">密码</locator>
+        <locator type="id" timeOut="3" value="TANGRAM__PSP_10__submit">登录</locator>
+        <locator type="id" timeOut="3" value="TANGRAM__PSP_10__error">异常提示</locator>
+
+    </page>
+
+    <page pageName="minePage">
+        <!--Locator lists -->
+        <locator type="id" timeOut="3" value="TANGRAM__PSP_10__userName">用户头像</locator>
+        <locator type="id" timeOut="3" value="user_name">用户名</locator>
+    </page>
+
+    <page pageName="loginPage">
+        <!--Locator lists -->
+        <locator type="id" timeOut="30" value="txtuser">登录输入账号框</locator>
+        <locator type="id" timeOut="30" value="txtuserp">登录输入密码框</locator>
+        <locator type="id" timeOut="30" value="btnLogin">登录</locator>
+        <locator type="id" timeOut="30" value="spanMessge">错误提示</locator>
+    </page>
+
+</map>
